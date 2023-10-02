@@ -1,0 +1,72 @@
+.App {
+  width: 60%; 
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+  text-align: center;
+
+}
+
+form {
+  display: inline;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  margin: 20px 0;
+  padding: 10px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(251, 192, 202);
+
+}
+
+li span{
+  padding: 8px;
+}
+
+li button {
+  background-color: rgb(255, 45, 80);
+  color: white;
+  font-weight: bold;
+  border: 3px solid rgb(255, 45, 80); /*will have to set to none in future*/
+  padding: 10px;
+  cursor: pointer
+}
+
+li.complete {
+  color: rgb(0, 74, 0);
+  /* border: 3px solid green; */
+  background-color: rgb(207, 249, 207);
+  font-weight: normal;
+}
+
+li.not-complete {
+  /* border: 3px solid red; */
+  background-color: red;
+  color: white;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 50%;
+  margin: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button, input[type="submit"]{
+  padding: 10px;
+  background: black;
+  color: white;
+  cursor: pointer;
+  border: 2 px solid black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
