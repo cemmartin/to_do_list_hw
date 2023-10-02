@@ -48,6 +48,14 @@ function App() {
       <form onSubmit={saveNewItem}>
         <label htmlFor="new-item"></label>
         <input id="new-item" type="text" value={newItem} onChange={handleItemInput} />
+        <label class="radioBtn">High
+          <input type="radio"  name="radio"/>
+          <span class="checkmark"></span>
+        </label>
+        <label class="radioBtn">Low
+          <input type="radio"  name="radio"/>
+          <span class="checkmark"></span>
+        </label>
         <input type="submit" value="Save Item" />
       </form>
 
